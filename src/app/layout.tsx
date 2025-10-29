@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import { Box, ThemeProvider } from "@mui/material";
-import theme from "@/theme/theme";
-import NavBar from "./NavBar";
+import { ThemeRegistry } from "../theme/ThemeRegistry";
+import ownerDetails from "../contexts/ownerDetails.json";
 
 export const metadata: Metadata = {
-  title: "Abdul-Mumeen",
-  description: "All about Abdul-Mumeen",
+  title: ownerDetails.site.title,
+  description: ownerDetails.site.description,
+  keywords: ownerDetails.site.keywords,
 };
 
 export default function RootLayout({
@@ -19,22 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
-          <ThemeProvider theme={theme}>
-            <Box
-              display="flex"
-              height="100%"
-              width="100%"
-              bgcolor="#F8F7F1"
-              color="#0D2F3F"
-            >
-              <Box flex={1} />
-              <Box flexGrow={2} maxWidth="69rem">
-                <NavBar />
-                {children}
-              </Box>
-              <Box flex={1} />
-            </Box>
-          </ThemeProvider>
+          <ThemeRegistry>{children}</ThemeRegistry>
         </AppRouterCacheProvider>
       </body>
     </html>
