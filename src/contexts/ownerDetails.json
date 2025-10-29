@@ -1,0 +1,198 @@
+{
+  "site": {
+    "title": "Abdul-Mumeen Olasode - Senior Full-stack Engineer",
+    "description": "Portfolio of Abdul-Mumeen Olasode, a passionate Senior Full-stack Engineer specializing in building scalable web applications using modern technologies.",
+    "keywords": [
+      "Abdulmumeen Olasode",
+      "Full-stack Engineer",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Portfolio"
+    ]
+  },
+  "firstName": "Abdulmumeen",
+  "lastName": "Olasode",
+  "firstNamePronunciation": "ab-dool-moo-mean",
+  "role": "Senior Full-stack Engineer",
+  "email": "olasodeadeyemi@gmail.com",
+  "phone": "+14379709214",
+  "location": "Toronto, Canada",
+  "avatarUrl": "https://media.licdn.com/dms/image/v2/C4D03AQGdxvZTjBOSqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1564038526604?e=1762992000&v=beta&t=ioPoWOJFFBLuDYoGT8qyoNC6AhfV4uWTAkidB4Fuucs",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/abdul-mumeen/",
+    "github": "https://github.com/abdul-mumeen"
+  },
+  "resumeUrl": "/abdulmumeen_olasode.pdf",
+  "bio": "Passionate Senior Full-stack Engineer with over 7 years of experience in designing and implementing scalable web applications. Proficient in JavaScript, TypeScript, React, Node.js, and cloud technologies. Adept at leading cross-functional teams to deliver high-quality software solutions that drive business growth.",
+  "interests": [
+    "Hiking & Outdoors",
+    "Open Source Contributions",
+    "Culinary Experiments"
+  ],
+  "skillCategories": [
+    {
+      "title": "Programming Languages",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "level": "Expert",
+          "proficiency": 95,
+          "icon": "Code"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Expert",
+          "proficiency": 92,
+          "icon": "IntegrationInstructions"
+        },
+        {
+          "name": "Python",
+          "level": "Intermediate",
+          "proficiency": 70,
+          "icon": "DataObject"
+        },
+        {
+          "name": "Go",
+          "level": "Intermediate",
+          "proficiency": 65,
+          "icon": "Terminal"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "skills": [
+        {
+          "name": "React",
+          "level": "Expert",
+          "proficiency": 90,
+          "icon": "Javascript"
+        },
+        {
+          "name": "Next.js",
+          "level": "Expert",
+          "proficiency": 88,
+          "icon": "ViewTimeline"
+        },
+        {
+          "name": "Node.js",
+          "level": "Proficient",
+          "proficiency": 82,
+          "icon": "DeveloperMode"
+        },
+        {
+          "name": "Express.js",
+          "level": "Proficient",
+          "proficiency": 78,
+          "icon": "Api"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Platforms",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Proficient",
+          "proficiency": 80,
+          "icon": "Cloud"
+        },
+        {
+          "name": "AWS",
+          "level": "Intermediate",
+          "proficiency": 75,
+          "icon": "CloudDone"
+        },
+        {
+          "name": "Git",
+          "level": "Expert",
+          "proficiency": 92,
+          "icon": "Commit"
+        },
+        {
+          "name": "CI/CD Automation",
+          "level": "Proficient",
+          "proficiency": 85,
+          "icon": "Build"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Next.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Agile Methodologies"
+  ],
+  "experiences": [
+    {
+      "company": "Tech Solutions Inc.",
+      "team": "Commerce Platform",
+      "position": "Senior Full-stack Engineer",
+      "employmentType": "Full-time · Remote",
+      "startDate": "2020-01-01",
+      "endDate": null,
+      "location": "Toronto, Canada",
+      "description": "Led the multi-tenant commerce platform that powers eight global storefronts and processes millions in monthly revenue. Partnered with design, product, and SRE teams to deliver performant customer journeys while reducing cloud spend.",
+      "highlights": [
+        "Architected a federated Next.js front-end with shared design system components adopted across four business units.",
+        "Shipped event-driven order fulfilment services in Node.js that cut average processing time by 42%.",
+        "Scaled observability with OpenTelemetry pipelines and actionable dashboards, reducing mean time to detect by 55%."
+      ],
+      "tools": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Kubernetes"
+      ]
+    },
+    {
+      "company": "Web Innovators Ltd.",
+      "team": "Application Engineering",
+      "position": "Full-stack Developer",
+      "employmentType": "Full-time",
+      "startDate": "2016-06-01",
+      "endDate": "2019-12-31",
+      "location": "Lagos, Nigeria",
+      "description": "Delivered user-facing features and platform capabilities for a suite of B2B marketing products. Balanced rapid experimentation with code quality through strong testing and CI practices.",
+      "highlights": [
+        "Implemented a reusable permissions service adopted by 12 micro front-ends with zero regressions at launch.",
+        "Migrated legacy templates to React, improving customer onboarding conversion by 18%.",
+        "Introduced CI/CD pipelines with automated visual regression tests, cutting release timeframes from weekly to daily."
+      ],
+      "tools": ["React", "Redux", "Express.js", "MongoDB", "Jest", "Docker"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Federal University of Agriculture, Abeokuta",
+      "degree": "Master of Information and Communication Technology",
+      "startDate": "2016-06-01",
+      "endDate": "2018-07-31",
+      "City": "Abeokuta",
+      "State": "Ogun State",
+      "Country": "Nigeria"
+    },
+    {
+      "institution": "Ladoke Akintola University of Technology",
+      "degree": "Bachelor of technology in Computer Engineering",
+      "startDate": "2006-11-30",
+      "endDate": "2011-12-31",
+      "City": "Ogbomoso",
+      "State": "Oyo State",
+      "Country": "Nigeria"
+    }
+  ]
+}
